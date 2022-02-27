@@ -30,7 +30,7 @@ Election-Audit Summary: In a summary statement, provide a business proposal to t
 The code i've built here is simple but effective and easily recycled. When viewing the image below you will notice that our code does not search by Charles Cooper Stockham, Diane DeGette or Raymond Anthony Doane. 
 
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(13).png?raw=true)
 
 ## Challenge Overview
 
