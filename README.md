@@ -1,7 +1,14 @@
 # Election_Analysis
 
 ## Project Overview
-I have been given the task of completing the election audit of a local congressional election by a Colorado Board of Elections. We analyzed the data for three counties in the state of Colorado;Arapahoe, Denver and Jefferson. The three candidates whose votes we tallied were, Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. The total number of votes was 369,711. Stockham received 85,213 votes or 23.0%. DeGette received 272,892 votes or 73.8% while Doane received 11,606 votes or 3.1%. The winner, by a considerable margin, was Diana Degette. 
+I have been given the task of completing the election audit of a local congressional election by a Colorado Board of Elections. We analyzed the data for three counties in the state of Colorado;Arapahoe, Denver and Jefferson. The three candidates whose votes we tallied were, Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.
+
+  1)The total number of votes was 369,711. 
+  
+  2)Stockham received 85,213 votes or 23.0%. 
+  3)DeGette received 272,892 votes or 73.8% while
+  4)Doane received 11,606 votes or 3.1%.
+ The winner, by a considerable margin, was Diana Degette. 
 
 ## Resources
 For our analysis we used a .csv (comma separated values) file provided by the election board. We also utilized Python 3.6.1 to analyze the code and Visual studio code 1.64.2 as the IDE or Integrated Development Environment. 
