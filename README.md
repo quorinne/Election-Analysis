@@ -15,7 +15,11 @@ I have been given the task of completing the election audit of a local congressi
  The winner, by a considerable margin, was Diana Degette who received 272,892 votes or 73.8%
 
 ## Resources
-For our analysis we used a .csv (comma separated values) file provided by the election board. We also utilized Python 3.6.1 to analyze the code and Visual studio code 1.64.2 as the IDE or Integrated Development Environment. 
+For our analysis we used a .csv (comma separated values) file provided by the election board. We also utilized Python 3.6.1 to analyze the code and Visual studio code 1.64.2 as the IDE or Integrated Development Environment. The results of the analysis were printed to a .txt file as shown in the image below.
+
+![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(13).png?raw=true)
+
+
 
 ## Summary
 The Election Analysis shows that there were 369,711 votes cast within the three counties. The candidates were Charles Casper Stockham, Diane DeGette, and Raymond Anthony Doane. 
@@ -40,5 +44,5 @@ It can even be used for other non election related purposes as long as all paths
 ![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(20).png?raw=true)
 
 
-![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(13).png?raw=true)
+
 
