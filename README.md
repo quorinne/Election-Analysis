@@ -1,7 +1,10 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of Election Audit
 I have been given the task of completing the election audit of a local congressional election by a Colorado Board of Elections. The three candidates whose votes we tallied were, Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. We analyzed the data for three counties in the state of Colorado; Arapahoe, Denver and Jefferson.
+
+
+## Election-Audit Results
 
   * The total number of votes was 369,711. 
   * Jefferson had 38,855 voters or 10.5%
