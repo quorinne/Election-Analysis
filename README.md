@@ -25,10 +25,8 @@ The winner of the election was Diana DeGette who received 73.8% of the vote.
 
 
 ## Election-Audit Summary
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
-The code i've built here is simple but effective and easily recycled. When viewing the image below you will notice that our code does not search by Charles Cooper Stockham, Diane DeGette or Raymond Anthony Doane. 
-
+The code i've built here is simple but effective and easily recycled. When viewing the image below you will notice that our code does not search by Charles Cooper Stockham, Diane DeGette or Raymond Anthony Doane, but rather it searches by county_name and candidate_name. In fact all that would be necessary would be to change the section to load a file from a path and to double check any indexes in the csv file to make sure the order of columns is consistent. This means that this could could be repurposed to calculate say a sherriff election in texas or school board election in california with minimal changes. For example if we needed to repurpose this for a sherriff election all we would need to do is make sure that the csv file columns read in order of left to right: Ballot ID, County, Candidate which would keep the county index at 1 and the candidate index at 2 meaning the section of code below would stay the same; the for/if loop below using all unique county and candidate names to tally and calculate votes. 
 
 ![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(19).png?raw=true)
 
