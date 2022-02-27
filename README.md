@@ -42,6 +42,3 @@ It can even be used for other non election related purposes as long as all paths
 
 ![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(13).png?raw=true)
 
-## Challenge Overview
-
-## Challenge Summary
