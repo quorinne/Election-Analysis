@@ -26,17 +26,18 @@ The winner of the election was Diana DeGette who received 73.8% of the vote.
 
 ## Election-Audit Summary
 
-The code i've built here is simple but effective and easily recycled. When viewing the image below you will notice that our code does not search by Charles Cooper Stockham, Diane DeGette or Raymond Anthony Doane, but rather it searches by county_name and candidate_name. In fact all that would be necessary would be to change the section to load a file from a path and to double check any indexes in the csv file to make sure the order of columns is consistent. This means that this could could be repurposed to calculate say a sherriff election in texas or school board election in california with minimal changes. For example if we needed to repurpose this for a sherriff election all we would need to do is make sure that the csv file columns read in order of left to right: Ballot ID, County, Candidate which would keep the county index at 1 and the candidate index at 2 meaning the section of code below would stay the same; the for/if loop below using all unique county and candidate names to tally and calculate votes. 
+The code i've built here is simple but effective and easily recycled. When viewing the image below you will notice that our code does not search by Charles Cooper Stockham, Diane DeGette or Raymond Anthony Doane, but rather it searches by county_name and candidate_name.
+
+![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(19).png?raw=true)
+
+All that would be necessary would be to change the section to load a file from a path and to double check any indexes in the csv file to make sure the order of columns is consistent. This means that this could could be repurposed to calculate say a sherriff election in texas or school board election in california with minimal changes. For example if we needed to repurpose this for a sherriff election all we would need to do is make sure that the csv file columns read in order of left to right: Ballot ID, County, Candidate which would keep the county index at 1 and the candidate index at 2 meaning the section of code below would stay the same; the for/if loop below using all unique county and candidate names to tally and calculate votes. The only section of code that would need to be changed is the section inside the parenthesis() in [file_to_load = os.path.join("Resources", "election_results.csv")],  and [file_to_save = os.path.join("analysis", "election_results.txt")]. 
+
+
 
 It can even be used for other non election related purposes as long as all paths and variables are adjusted. For example say you wanted to analyze the data for popular ice cream flavors sold at a store during the summer, this code could help you accomplish that. Our first task for adjusting the code for this purpose would be checking the csv file for column order. Lets assume the colums in the csv file go City, Store, Flavor from left to right. This would make the index for City 0, the index for Store 1 and the index for flavor 2. If we wanted to calculate the flavors sold we could simply change our code so that it resembles the code in the image below. 
 
 
 ![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(20).png?raw=true)
-
-
-![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(19).png?raw=true)
-
-
 
 
 ![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(13).png?raw=true)
