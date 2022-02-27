@@ -41,7 +41,7 @@ All that would be necessary would be to change the section to load a file from a
 It can even be used for other non election related purposes as long as all paths and variables are adjusted. For example say you wanted to analyze the data for popular ice cream flavors sold at a store during the summer, this code could help you accomplish that. Our first task for adjusting the code for this purpose would be checking the csv file for column order. Lets assume the colums in the csv file go City, Store, Flavor from left to right. This would make the index for City 0, the index for Store 1 and the index for flavor 2. If we wanted to calculate the flavors sold we could simply change our code so that it resembles the code in the image below. 
 
 
-![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(20).png?raw=true)
+![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(22).png?raw=true)
 
 
 
