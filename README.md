@@ -25,7 +25,12 @@ The winner of the election was Diana DeGette who received 73.8% of the vote.
 
 
 ## Election-Audit Summary
+Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
+The code i've built here is simple but effective and easily recycled. When viewing the image below you will notice that our code does not search by Charles Cooper Stockham, Diane DeGette or Raymond Anthony Doane. 
+
+
+![alt text](http://url/to/img.png)
 
 ## Challenge Overview
 
