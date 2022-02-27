@@ -28,44 +28,11 @@ The winner of the election was Diana DeGette who received 73.8% of the vote.
 
 The code i've built here is simple but effective and easily recycled. When viewing the image below you will notice that our code does not search by Charles Cooper Stockham, Diane DeGette or Raymond Anthony Doane, but rather it searches by county_name and candidate_name. In fact all that would be necessary would be to change the section to load a file from a path and to double check any indexes in the csv file to make sure the order of columns is consistent. This means that this could could be repurposed to calculate say a sherriff election in texas or school board election in california with minimal changes. For example if we needed to repurpose this for a sherriff election all we would need to do is make sure that the csv file columns read in order of left to right: Ballot ID, County, Candidate which would keep the county index at 1 and the candidate index at 2 meaning the section of code below would stay the same; the for/if loop below using all unique county and candidate names to tally and calculate votes. 
 
-It can even be used for other non election related purposes as long as all paths and variables are adjusted. For example say you wanted to analyze the data for popular ice cream flavors sold at a store during the summer, this code could help you accomplish that. Our first task for adjusting the code for this purpose would be checking the csv file for column order. Lets assume the colums in the csv file go City, Store, Flavor from left to right. This would make the index for City 0, the index for Store 1 and the index for flavor 2. If we wanted to calculate the flavors sold we could simply change our code to 
-total_votes = 0
+It can even be used for other non election related purposes as long as all paths and variables are adjusted. For example say you wanted to analyze the data for popular ice cream flavors sold at a store during the summer, this code could help you accomplish that. Our first task for adjusting the code for this purpose would be checking the csv file for column order. Lets assume the colums in the csv file go City, Store, Flavor from left to right. This would make the index for City 0, the index for Store 1 and the index for flavor 2. If we wanted to calculate the flavors sold we could simply change our code so that it resembles the code in the image below. 
 
-# Flavor Options flavors sold
-flavor_options = []
-flavors_sold = {}
 
-# 1: Stores selling ice cream and stores where ice cream was purchased. 
-store_options = []
-stores_sold = {}
-for row in reader:
-        # Add to the total vote count
-       total_votes = total_votes + 1
-        # Get the flavor from each row.
-       flavor_options = row[2] candidate
-        # 3: Extract the county name from each row.
-       store_options = row[1]   county
-        # If the flavor does not match any existing flavors add it to
-        # the flavor list list
-        if flavor not in flavor_options:
-            # Add the flavor to the list.
-            flavor_options.append(flavor_name)
-            # And begin tracking that candidate's voter count.
-            flavors_sold[flavor_name] = 0
-        # Add a vote to that candidate's count
-        flavors_sold[flavor_name] += 1
-        # 4a: Write an if statement that checks that the
-        # store does not match any existing store in the  store list.
-        if store_name not in store_options:
-            # 4b: Add the existing store to the list.
-            store_options.append(store_name)
-            # 4c: Begin tracking the county's vote count.
-            stores_sold[store_name] = 0
-        # 5: Add a vote to that county's vote count.
-        stores_sold[store_name] += 1
+![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(20).png?raw=true)
 
-# Save the results to our text file.
-with open(file_to_save, "w") as txt_file:
 
 ![alt text](https://github.com/quorinne/Election-Analysis/blob/master/Resources/Screenshot%20(19).png?raw=true)
 
