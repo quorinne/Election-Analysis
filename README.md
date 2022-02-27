@@ -3,14 +3,14 @@
 ## Project Overview
 I have been given the task of completing the election audit of a local congressional election by a Colorado Board of Elections. The three candidates whose votes we tallied were, Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. We analyzed the data for three counties in the state of Colorado;Arapahoe, Denver and Jefferson.
 
-  *)The total number of votes was 369,711. 
-  *)Jefferson had 38,855 voters or 10.5%
-  *)Denver had 306,055 voters or 82.8%
-  *)Arapahoe had 24,801 voters or 6.7% 
-  *)Denver had the largest number of votes
-  *)Stockham received 85,213 votes or 23.0%. 
-  *)DeGette received 272,892 votes or 73.8% while
-  *)Doane received 11,606 votes or 3.1%.
+  * The total number of votes was 369,711. 
+  * Jefferson had 38,855 voters or 10.5%
+  * Denver had 306,055 voters or 82.8%
+  * Arapahoe had 24,801 voters or 6.7% 
+  * Denver had the largest number of votes
+  * Stockham received 85,213 votes or 23.0%. 
+  * DeGette received 272,892 votes or 73.8% while
+  * Doane received 11,606 votes or 3.1%.
   
  The winner, by a considerable margin, was Diana Degette who receives 272,892 votes or 73.8%
 
